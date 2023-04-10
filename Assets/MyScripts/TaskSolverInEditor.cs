@@ -80,14 +80,14 @@ public class TaskSolverInEditor : MonoBehaviour
     private void TaskOneFunction1()
     {
         Debug.Log("Player look at mirror and see hat on his head");
-        // player see mirror
+        // player see mirror 
         PlayerController.setPlayerPositionAndDirection(new Vector3(-0.4f, -10.84f, 35.73f), new Vector3(2.124f, 1.567f, 0.058f));
     }
 
     private void TaskOneFunction2()
     {
         Debug.Log("Player see the hook");
-        //player see hook
+        //player see hook 
         PlayerController.setPlayerPositionAndDirection(new Vector3(-0.4f, -10.84f, 34.71f), new Vector3(2.124f, 167.281f, 0.058f));
     }
 

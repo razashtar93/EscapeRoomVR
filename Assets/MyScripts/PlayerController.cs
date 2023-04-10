@@ -38,7 +38,7 @@ public class PlayerController : MonoBehaviour
 
     public void openGates(GameObject gate) // later on combined all the 3 function to 1 if we have time
     {
-        //Debug.Log("Gate is open");
+        //Debug.Log("Gate is open"); 
         animationControllerGate.PlayAnimation();
         soundEffect.PlayBarredGateSound();
     }
